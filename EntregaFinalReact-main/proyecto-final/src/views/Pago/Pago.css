@@ -1,0 +1,37 @@
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 20px;
+    width: 750px;
+	background-color: #bebcbc;
+}
+
+.pageContainer {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.Textfield {
+	width: 400px;
+}
+
+.encargar {
+	background-color: rgba(202, 1, 58, 0.714);
+	color: white;
+	height: 54px;
+	width: 400px;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background, color 0.5s;
+	outline: #ff0000;
+	border: none;
+	margin: 10px;
+}
+
+.encargar:hover {
+	color:black ;
+}

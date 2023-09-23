@@ -1,0 +1,20 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    justify-content: space-between;
+    width: 100vw;
+    height: 60px;
+    background-color: #bebcbc;
+    border: 1px solid #717171;
+}
+
+.navButtons {
+    margin-right: 20px;
+    color: black;
+}
+
+.navButtons:hover {
+    background-color: rgba(202, 1, 58, 0.714);;
+    color: black;
+}

@@ -1,0 +1,25 @@
+.welcomeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome {
+    height: 500px;
+    width: 500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bebcbc;
+}
+
+.saludo {
+    font: bold;
+    font-size: xx-large;
+}
